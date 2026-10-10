@@ -73,3 +73,13 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Android release signing secrets
+android/app/my-upload-key.keystore
+
+# Android release signing secrets
+android/keystore.properties
+
+# Environment secrets
+.env
+.env.*
